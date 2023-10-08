@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --screen-white: #e5e5dc;
+  --button-black: #262626;
+  --wolf-grey: #959595;
+  --lemon-green: #7ef29d;
+}
+
+.header1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.header2 {
+  background: -webkit-linear-gradient(90.05deg, #7ef29d 1.73%, #0f68a9 99.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 96px;
+
+}
