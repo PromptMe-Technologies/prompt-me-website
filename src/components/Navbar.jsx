@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.jpeg';
 import menu from '../assets/menu.png';
 import close from '../assets/close.png';
 
@@ -33,18 +33,10 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
 
-      {/* Desktop Navigation */}
-      <div className="sm:flex hidden gap-3 items-center mr-10">
-        <button className="font-poppins w-[174px] h-[49px] border-solid border-[3px] rounded-[7px] border-lemon-green shadow-md">
-          Sign-in
-        </button>
-        <button className="font-poppins w-[174px] h-[49px] text-white rounded-[7px] bg-[#1B1B1B] shadow-xl">
-          Get Started
-        </button>
-      </div>
+      
 
       {/* Mobile Navigation */}
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      {/* <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -53,7 +45,7 @@ const Navbar = () => {
         />
 
         {/* Sidebar */}
-        <div
+        {/* <div
           className={`${
             !toggle ? 'hidden' : 'flex'
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
@@ -65,7 +57,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 };

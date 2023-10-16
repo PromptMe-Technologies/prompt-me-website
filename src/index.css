@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --screen-white: #e5e5dc;
-  --button-black: #262626;
+  --screen-white: #000;
+  --button-black: #fff;
   --wolf-grey: #959595;
   --lemon-green: #7ef29d;
 }
@@ -15,6 +15,7 @@
   line-height: 60px;
   letter-spacing: 0em;
   text-align: center;
+  color: #e6e6dd;
 }
 
 .header2 {
